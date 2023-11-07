@@ -1,6 +1,6 @@
 node {
 	stage('prepare') {
-		git branch: 'main', poll: false, url: 'https://github.com/enigma-cloudops/jenkins-devops.git'
+		git branch: 'main', poll: false, url: 'https://github.com/enigma-cloudops/restro.git'
 	}
 	
 	stage('build') {
